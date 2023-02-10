@@ -191,6 +191,16 @@ hr{
     color: var(--secondary);
     font-weight: var(--600);
 }
+.logo_text{
+    font-size: 1.6rem;
+    background: linear-gradient(90deg, #00dbde, #fc00ff);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    border-image: linear-gradient(0.25turn, rgba(255,0,128), #00dbde);
+    border-image-slice: 1;
+    width:100%;
+}
+
 
 /* ---========================================================================--- */
 /* Landing Page Section Styling */
@@ -673,7 +683,6 @@ hr{
         flex-wrap: wrap;
         gap: 1.2rem;
     }
-
 }
 
 /* Fixed Contact Contact Styling (try only) */
