@@ -5,6 +5,7 @@
     scroll-behavior: smooth;
 }
 
+/* ---========================================================================--- */
 /* Predefined Styling For This Project */
 :root{
     --main-bg: #141a31;
@@ -31,7 +32,6 @@
     display: none;
 }
 ::selection{
-    /* background: #ee7724; */
     background: #e4e7eb;
     color: #100d1e;
 }
@@ -63,16 +63,10 @@
 }
 .form-select{
     border-radius: 0px;
-    /* background: var(--card-bg);
-    border: 1px solid var(--tertiary);
-    color: var(--tertiary); */
 }
 .form-select:focus, .form-select:active:focus, .form-select.active:focus{
     outline: none;
     box-shadow: none;
-    /* background: var(--card-bg);
-    border-bottom: 2px solid var(--border-color);
-    color: var(--primary); */
 }
 .form-check-input[type=checkbox]{
     border-radius: 0px !important;
@@ -132,7 +126,7 @@
     color: #111;
 }
 
-
+/* ---========================================================================--- */
 /* Global Colors */
 .primary{
     color: #d3d3d3;
@@ -144,6 +138,7 @@
     color: #596066;
 }
 
+/* ---========================================================================--- */
 /* Global Font Sizing */
 .text-xxl{
     font-size: 3.4rem;
@@ -224,16 +219,60 @@ hr{
     border-right: 1px solid rgba(255,255,255,0.2);
     border-bottom: 1px solid rgba(255,255,255,0.2);
     padding: 8px;
-    border-top-left-radius: 100px;
-    border-bottom-right-radius: 100px;
+}
+.landing_page_data_boxes{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.my_info_data_box{
+    width: 60%;
+}
+.my_img_box{
+    width: 35%;
+}
+.landing_page_img_box{
+    width: 100%;
+    position: relative;
 }
 .landing-img{
     width: 100%;
-    height: 74vh;
-    /* -webkit-clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
-    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%); */
+    height: 70vh;
     object-fit: cover;
-    object-position: bottom;
+    object-position: center;
+}
+.my_social_links_box{
+    width: 100%;
+    position: absolute;
+    bottom: 15px;
+    right: 4%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.0rem;
+}
+.icons{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: var(--card-bg);
+    transition: 0.5s ease-out;
+}
+.icons:hover{
+    background: var(--main-bg);
+}
+.icons i{
+    font-size: 1.5rem;
+    color: var(--primary);
+    transition: 0.5s ease-out;
+}
+.icons:hover i{
+    color: var(--tertiary);
 }
 .introduction{
     font-size: 1.0rem;
@@ -249,21 +288,9 @@ hr{
     letter-spacing: 2.5px;
     font-weight: 550;
 }
-/* 
-.work-together-btn{
-    background: transparent;
-    border: 2px solid #fa6b05;
-    color: #fa6b05;
-    transition: 0.5s ease-out;
-}
-.work-together-btn:hover{
-    background: #fa6b05;
-    border: 2px solid #fa6b05;
-    border-top-right-radius: 10px !important;
-    border-bottom-left-radius: 10px !important;
-} */
 
 
+/* ---========================================================================--- */
 /* About US Styling */
 .goku_background{
     background: var(--main-bg);
@@ -293,7 +320,6 @@ hr{
     width: 100%;
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
     flex-wrap: wrap;
 }
 .sngl_hob_box{
@@ -307,7 +333,6 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background: var(--tertiary); */
     box-shadow:  -1.3px -1.3px 1px var(--secondary), 0.5px 0.5px 2px var(--primary);
 }
 .appreciation_box{
@@ -322,9 +347,9 @@ hr{
     justify-content: center;
     align-items: center;
     border: 1px dashed var(--tertiary);
-    /* box-shadow: 1px 1px 6px var(--tertiary); */
 }
 
+/* ---========================================================================--- */
 /* Circular Progress Bar Section */
 .skill_bar_section{
     width: 100%;
@@ -339,8 +364,6 @@ hr{
     width: 130px;
     box-shadow: 1px 1px 6px var(--tertiary);
     flex-direction: column;
-    /* border-top-left-radius: 10px;
-    border-top-right-radius: 10px; */
 }
 .circular-progress{
     position: relative;
@@ -365,6 +388,7 @@ hr{
 }
 /* End hete */
 
+
 .progress{
     background: var(--tertiary);
     border-radius: 0px;
@@ -383,8 +407,6 @@ hr{
     border-top-left-radius: 0px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 0px;
-    /* border-left: 2px solid var(--border-color);
-    border-right: 1px solid var(--border-color); */
     transform: translateX(0);
     transform-origin: left;
     animation: progressbar 1s cubic-bezier(1,0,0.5,1) forwards;
@@ -397,19 +419,8 @@ hr{
 }
 
 
-/* Events Section Styling */
-/* .goku_event{
-    background: var(--bg-image), url('../img/speech.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 50vh;
-} */
-
-
+/* ---========================================================================--- */
 /* Services Styling */
-
 .tag_section{
     width: 100%;
     display: flex;
@@ -433,30 +444,21 @@ hr{
 .services_box{
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    gap: 1.3rem;
 }
-.service_card_box:nth-child(2){
-    margin-left: 5rem;
-    margin-right: 5rem;
-}
-.service_card_box:nth-child(5){
-    margin-left: 5rem;
-    margin-right: 5rem;
-}
-.service_card{
-    width: 370px;
+.service_card_box{
+    width: 400px;
     height: auto;
     background: var(--card-bg);
     border: 1px solid var(--border-color);
     transition: 0.5s ease-in-out;
     cursor: pointer;
 }
-.service_card:hover{
+.service_card_box:hover{
     box-shadow: var(--card-box-shadow);
-    /* background: linear-gradient(315deg, var(--secondary) var(--tertiary));
-    box-shadow:  -10px -10px 20px var(--tertiary), 10px 10px 15px var(--secondary); */
 }
 .icon_box{
     display: flex;
@@ -479,15 +481,20 @@ hr{
     color: var(--primary);
     transition: 0.99s ease-in-out;
 }
-.service_card:hover .box{
-    border: 2px solid var(--primary);
+.service_card_box:hover .box{
+    border-top: 2px solid var(--secondary);
+    border-left: 2px solid var(--secondary);
+    border-right: 2px solid var(--tertiary);
+    border-bottom: 2px solid var(--tertiary);
 }
-.service_card:hover i{
+.service_card_box:hover i{
     font-size: 1.6rem;
     color: var(--secondary);
+    scale: 1.5;
 }
 
 
+/* ---========================================================================--- */
 /* Portfolio Section Styling */
 .secondary_bg{
     background: #100d1e;
@@ -498,6 +505,7 @@ hr{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    gap: 1.5rem;
 }
 .portfolio_box{
     width: 300px;
@@ -532,20 +540,19 @@ hr{
     border-bottom-left-radius: 0px;
 }
 
+
+/* ---========================================================================--- */
 /* Experience Section Styling */
 .experience{
     width: 100%;
     height: auto;
     background: #100d1e;
-    /* box-shadow: 5px 5px 2px var(--secondary); */
-    /* border: 2px solid transparent; */
     transition: .5s ease-out;
     background: linear-gradient(315deg, var(--secondary) var(--tertiary));
     box-shadow:  -2px -2px 0px var(--tertiary), 2px 2px 0px var(--secondary);
 }
 .experience:hover{
     height: auto;
-    /* border: 2px solid var(--border-color); */
     box-shadow: none;
     box-shadow:  -2px -2px 0px var(--secondary), 2px 2px 15px var(--tertiary);
 }
@@ -566,14 +573,8 @@ hr{
     left: 0;
 }
 
-/* Rectangle Experience Section Styling */
-/* .experience_rect_section{
-    width: 100%;
-    height: auto;
-    box-shadow:  -3px -3px 0px var(--tertiary), 3px 3px 1px var(--secondary);
-} */
 
-
+/* ---========================================================================--- */
 /* Contact Section Styling */
 .contact_data{
     width: 100%;
@@ -624,25 +625,15 @@ hr{
 }
 
 
+/* ---========================================================================--- */
 /* Footer Section Styling */
 .copy_right_section{
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
-/* .imp_links{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-.imp_sites a{
-    color: var(--tertiary);
-    transition: 0.5s ease-out;
-}
-.imp_sites a:hover{
-    color: var(--secondary);
-} */
 
 
 /* Fixed Contact Contact Styling (try only) */
