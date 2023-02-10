@@ -14,6 +14,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
     <!-- Custom Css link here -->
     <link rel="stylesheet" type='text/css' href="./css/goku.css">
+    <!-- Custom JavaScript link here -->
+    <script src="./js/goku.js"></script>
     <!-- Dynamic Title here -->
     <title> Goku</title>
 </head>
@@ -35,30 +37,30 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item me-3">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active" aria-current="page" href="#homepage">Home</a>
                             </li>
                             <li class="nav-item me-3">
-                                <a class="nav-link" href="#">About Us</a>
+                                <a class="nav-link" href="#aboutus">About Us</a>
                             </li>
                             <li class="nav-item me-3">
-                                <a class="nav-link" href="#">Services</a>
+                                <a class="nav-link" href="#services">Services</a>
                             </li>
                             <li class="nav-item me-3">
-                                <a class="nav-link" href="#">PortFolio</a>
+                                <a class="nav-link" href="#portfolio">PortFolio</a>
                             </li>
                             <li class="nav-item me-3">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="#contact">Contact</a>
                             </li>
                         </ul>
-                        <a href="https://discord.gg/WxhVTCWj" target="_blank" class="btn btn-hover-effect">Join
-                            Discord</a>
+                        <a href="https://discord.gg/WxhVTCWj" target="_blank" class="btn btn-hover-effect">
+                            Join Discord
+                        </a>
                     </div>
                     <!--  -->
                 </div>
             </nav>
         </div>
     </div>
-
 
     <!-- Landing Page Section -->
     <div class="container-fluid px-0 py-lg-5 py-2 mx-0 landing_page_section">
@@ -98,7 +100,7 @@
     <!-- ---============================================================================--- -->
     <div class="container-fluid px-0 mx-0 goku_background">
         <!-- ---=============== About US Section ===============--- -->
-        <div class="container col-lg-11 py-3">
+        <div class="container col-lg-11 py-3" id="aboutus">
             <div class="tag_section px-3 pt-4 mb-4">
                 <div class="main_tag">
                     <h6 class="primary mb-0 text-l">About Me</h6>
@@ -123,11 +125,9 @@
                             Besides that I can do full-stack development. And I have a good knowledge of popular
                             framework like Bootstrap, React, Django and other aspects as well. -->
                                 I just graduated from Coventry University. Now that I am free to work, I am basically
-                                quite
-                                good at front-end development. I have designed and developed many website templates.
-                                Aside
-                                from that, I am capable of full-stack development. And I am well-versed in popular
-                                frameworks like Bootstrap, React, Django, and others.
+                                quite good at front-end development. I have designed and developed many website
+                                templates. Aside from that, I am capable of full-stack development. And I am well-versed
+                                in popular frameworks like Bootstrap, React, Django, and others.
                             </p>
                         </div>
                         <div class="education_section">
@@ -199,13 +199,13 @@
                             <div class="appreciation_box">
                                 <div class="workdone_box me-4">
                                     <div class="work_data text-center py-2">
-                                        <h6 class="text-xl stroke-text mb-0">05</h6>
+                                        <h6 class="text-xl stroke-text mb-0">10</h6>
                                         <p class="text-m tertiary mb-0">Satisfied Customers</p>
                                     </div>
                                 </div>
                                 <div class="workdone_box me-4">
                                     <div class="work_data text-center py-2">
-                                        <h6 class="text-xl stroke-text mb-0">08</h6>
+                                        <h6 class="text-xl stroke-text mb-0">16</h6>
                                         <p class="text-m tertiary mb-0">Complete Projects</p>
                                     </div>
                                 </div>
@@ -408,7 +408,7 @@
             <hr>
         </div>
         <!-- ---=============== Services Section ===============--- -->
-        <div class="container col-lg-11 pb-5">
+        <div class="container col-lg-11 pb-5" id="services">
             <div class="tag_section px-3 mb-4">
                 <div class="main_tag">
                     <h6 class="tertiary mb-0 text-l">Services</h6>
@@ -468,7 +468,7 @@
     </div>
 
     <!-- ---=============== Portfolio Section ===============--- -->
-    <div class="container-fluid px-0 mx-0 secondary_bg">
+    <div class="container-fluid px-0 mx-0 secondary_bg" id="portfolio">
         <div class="container col-lg-11 py-4">
             <div class="tag_section px-3 mb-4">
                 <div class="main_tag">
@@ -501,7 +501,8 @@
                     <div class="img_category_box">
                         <img src="./img/hostel_finder.jpg" alt="Portfolio Image" class="portfolio_image">
                     </div>
-                    <a href="https://github.com/gokarna123-goku/hostel_finder_frontend" target="_blank" class="text-decoration-none">
+                    <a href="https://github.com/gokarna123-goku/hostel_finder_frontend" target="_blank"
+                        class="text-decoration-none">
                         <h6 class="text-l primary pt-3 mb-0 pb-0">Hostel Finder</h6>
                     </a>
                     <p class="text-s mb-0 badge bg-badge px-2">mobile app</p>
@@ -511,7 +512,8 @@
                     <div class="img_category_box">
                         <img src="./img/rms.png" alt="Portfolio Image" class="portfolio_image">
                     </div>
-                    <a href="https://github.com/gokarna123-goku/multi_vendor_platform" target="_blank" class="text-decoration-none">
+                    <a href="https://github.com/gokarna123-goku/multi_vendor_platform" target="_blank"
+                        class="text-decoration-none">
                         <h6 class="text-l primary pt-3 mb-0 pb-0">Multi-Vendor RMS</h6>
                     </a>
                     <p class="text-s mb-0 badge bg-badge px-2">website development</p>
@@ -523,7 +525,7 @@
     <!-- ---=============== Section Start ===============--- -->
     <div class="container-fluid px-0 mx-0 goku__background">
         <!-- ---=============== Experience Section ===============--- -->
-        <div class="container col-lg-11 py-3">
+        <div class="container col-lg-11 py-3" id="experience">
             <div class="tag_section px-3 mb-4">
                 <div class="main_tag">
                     <h6 class="tertiary mb-0 text-l">Experience</h6>
@@ -595,7 +597,7 @@
             <hr>
         </div>
         <!-- ---=============== Contact Section ===============--- -->
-        <div class="container col-lg-11 py-3">
+        <div class="container col-lg-11 py-3" id="contact">
             <div class="tag_section px-3 mb-4">
                 <div class="main_tag">
                     <h6 class="tertiary mb-0 text-l">Contact</h6>
@@ -749,9 +751,6 @@
             </div>
         </div>
     </div>
-
-    <!-- Custom Css link here -->
-    <script src="./js/goku.js"></script>
 
     <script>
         let circularProgress = document.querySelector(".circular-progress0"),
