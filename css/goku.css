@@ -339,9 +339,10 @@ hr{
     width: 100%;
     display: flex;
     align-items: center;
+    gap: 0.8rem;
 }
 .workdone_box{
-    width: 155px;
+    width: 165px;
     height: auto;
     display: flex;
     justify-content: center;
@@ -635,6 +636,45 @@ hr{
     flex-wrap: wrap;
 }
 
+
+
+
+/* ---========================================================================--- */
+/* Media Queries */
+@media screen and (max-width: 478px ) and (min-width: 375px) {
+    /* Landing Page */
+    .my_info_data_box{
+        width: 100%;
+    }
+    .intro-title {
+        line-height: 2rem;
+        letter-spacing: 1.8px;
+        font-weight: 550;
+    }
+    .text-xxl {
+        font-size: 1.8rem;
+    }
+    .my_img_box{
+        width: 100%;
+    }
+    .landing-img {
+        height: 50vh;
+    }
+
+    /* About Section */
+    .abt_img {
+        height: 50vh;
+    }
+    .hobbies {
+        flex-wrap: wrap;
+        gap: 1.2rem;
+    }
+    .appreciation_box {
+        flex-wrap: wrap;
+        gap: 1.2rem;
+    }
+
+}
 
 /* Fixed Contact Contact Styling (try only) */
 /* .contact_section{
