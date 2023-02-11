@@ -260,7 +260,7 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* gap: 1.0rem; */
+    gap: 1.0rem;
 }
 .center_box{
     display: flex;
@@ -684,6 +684,9 @@ hr{
     }
     .landing-img {
         height: 50vh;
+    }
+    .my_social_accounts_box {
+        gap: 0.0rem;
     }
 
     /* About Section */
