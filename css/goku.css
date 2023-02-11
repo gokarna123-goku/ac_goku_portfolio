@@ -257,11 +257,10 @@ hr{
     width: 100%;
     position: absolute;
     bottom: 15px;
-    right: 4%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    gap: 1.0rem;
+    /* gap: 1.0rem; */
 }
 .center_box{
     display: flex;
