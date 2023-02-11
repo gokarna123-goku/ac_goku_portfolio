@@ -253,7 +253,7 @@ hr{
     object-fit: cover;
     object-position: center;
 }
-.my_social_links_box{
+.my_social_accounts_box{
     width: 100%;
     position: absolute;
     bottom: 15px;
@@ -262,6 +262,19 @@ hr{
     justify-content: flex-end;
     align-items: center;
     gap: 1.0rem;
+}
+.center_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.name_box{
+    background: var(--card-bg);
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 76%, 57% 76%, 48% 100%, 42% 76%, 0 76%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 76%, 57% 76%, 48% 100%, 42% 76%, 0 76%);
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
 }
 .icons{
     width: 35px;
@@ -275,6 +288,9 @@ hr{
 }
 .icons:hover{
     background: var(--main-bg);
+}
+.center_box:hover .name_box{
+    opacity: 1;
 }
 .icons i{
     font-size: 1.5rem;
