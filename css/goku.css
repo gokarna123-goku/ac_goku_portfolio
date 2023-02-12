@@ -701,6 +701,11 @@ hr{
         flex-wrap: wrap;
         gap: 1.2rem;
     }
+
+    /* Portfolio Section */
+    .portfolio_box {
+        width: 100%;
+    }
 }
 
 /* Fixed Contact Contact Styling (try only) */
