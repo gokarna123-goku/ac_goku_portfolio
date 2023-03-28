@@ -419,7 +419,9 @@ hr{
     height: auto;
     display: flex;
     align-items: center;
-    gap: 1.2rem;
+    row-gap: 1.8rem;
+    column-gap: 1.3rem;
+    flex-wrap: wrap;
 }
 .my_progress_box{
     width: auto;
@@ -451,9 +453,9 @@ hr{
     height: 3.5vh;
 }
 .progress_title{
-    font-size: 1.4rem;
-    font-weight: 600;
-    letter-spacing: 0.08rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: 0.099rem;
     color: var(--primary);
 }
 
