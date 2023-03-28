@@ -412,6 +412,51 @@ hr{
 .progress-value{
     position: relative;
 }
+
+/* Try here new progressbar */
+.my_progess_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+.my_progress_box{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    background: rgba(20, 194, 163, 0.15);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.7px);
+    -webkit-backdrop-filter: blur(0.7px);
+    border: 1px solid rgba(20, 194, 163, 0.10);
+    transition: 0.55s ease-out;
+    cursor: pointer;
+    /* overflow: auto;
+    resize: both; */
+}
+.my_progress_box:hover{
+    background: rgba(20, 194, 163, 0.15);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.7px);
+    -webkit-backdrop-filter: blur(0.7px);
+    border: 1px solid rgba(20, 194, 163, 0.69);
+}
+.progress_img{
+    width: 25px;
+    height: 3.5vh;
+}
+.progress_title{
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.08rem;
+    color: var(--primary);
+}
+
 /* End hete */
 
 
