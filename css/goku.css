@@ -174,10 +174,11 @@ hr{
 /* Navbar/Header Section Styling */
 .header_section{
     border-radius: 0px;
-    backdrop-filter: blur(20px);
+    /* backdrop-filter: blur(20px); */
+    backdrop-filter: blur(1.28px);
     background: var(--header-bg);
     box-shadow: var(--header-box-shadow);
-    border-bottom: 1px solid var(--nav-border);
+    border-bottom: 2px solid var(--nav-border);
 }
 .header_section ul li a{
     color: var(--nav-item-color);
@@ -747,6 +748,16 @@ hr{
     .appreciation_box {
         flex-wrap: wrap;
         gap: 1.2rem;
+    }
+
+    /* New progressbar section */
+    .my_progess_section{
+        justify-content: center;
+    }
+    .my_progress_box{
+        width: 90%;
+        height: auto;
+        gap: 1rem;
     }
 
     /* Portfolio Section */
